@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Homepage
+</title>
+<style>
+header{
+width:100%;
+height:50px;
+border-width:1px;
+border-style:solid;
+border-color:red;
+float:left;
+box-sizing:border-box;
+padding:6px;
+}
+
+body{
+padding:0;
+margin:0;
+}
+#brand{
+padding:0;
+margin:0;
+font-family:sans-serif;
+float:left;
+margin-left:24px;
+}
+
+#tag_line{
+float:right;
+padding:0;
+margin:0;
+margin-top:10px;
+font-family:century gothic;
+margin-right:24px;
+}
+
+nav{
+width:100%;
+height:100px;
+background-color:blue;
+float:left;
+box-sizing:border-box;
+padding:30px
+}
+
+#search{
+width:400px;
+height:40px;
+float:left;
+box-sizing:border-box;
+border:none;
+font-size:15px;
+padding:10px;
+}
+
+#search-btn{
+width:100px;
+height:40px;
+float:left;
+box-sizing:border-box;
+border:none;
+margin-left:3px;
+font-size:16px;
+padding:20px;
+}
+
+#menu_table{
+width:600px;
+height:40px;
+float:right;
+box-sizing:border-box;
+}
+
+#menu_itme{
+background-color:white;
+width:20%;
+text-align:center;
+}
+
+a{
+text-decoration:none;
+color:black;
+font-family:sans-serif;
+}
+
+section{
+width:100%;
+height:1650px;
+float:left;
+box-sizing:border-box;
+border-width:1px;
+border-style:solid;
+border-color:blue;
+padding:50px;
+}
+
+#Venue{
+float:left;
+}
+
+#Phone{
+float:right;
+}
+
+#populer-Sweets-box{
+width:720px;
+height:550px;
+float:left;
+box-sizing:border-box;
+background-color:black;
+margin-top:30px;
+padding:25px;
+}
+
+#populer-Sweets-title{
+color:white;
+text-align:center;
+font-size:30px;
+font-family:sans-serif;
+margin:0px;
+padding:0px;
+}
+
+#populer-Sweets-img{
+width:300px;
+height:200px;
+margin:15px;
+border-width:5px;
+border-style:solid;
+border-color:white;
+box-sizing:border-box;
+}
+
+#rate_list_box{
+width:400px;
+height:550px;
+float:right;
+box-sizing:border-box;
+margin-top:30px;
+}
+
+#rate_header{
+height:50px;
+background-color:black;
+color:white;
+text-align:center;
+font-family:century gothic;
+font-size:25px;
+}
+
+#rate_content{
+background-color:blue;
+}
+
+#s_name{
+color:white;
+font-family:century-gothic;
+font-size:20px;
+padding:10px;
+border-bottom-width:2px;
+border-bottom-style:solid;
+border-bottom-color:white;
+}
+
+#rate{
+list-style:none;
+}
+
+fieldset{
+width:690px;
+height:550px;
+float:left;
+margin-top:50px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+padding:10px;
+}
+
+legend{
+font-family:century-gothic;
+font-size:30px;
+font-weight:bold;
+}
+
+#Order_Online{
+font-size:18px;
+font-family:sans-serif;
+}
+
+#Order_input{
+width:100%;
+height:35px;
+box-sizing:border-box;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+margin-top:5px;
+}
+
+textarea{
+width:100%;
+height:100px;
+box-sizing:border-box;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+margin-top:5px;
+}
+
+#Submet_btn{
+padding:10px;
+font-size:15px;
+float:right;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+}
+
+#abt_us{
+width:400px;
+height:552px;
+float:right;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+margin-top:66px;
+padding:20px;
+box-sizing:border-box;
+}
+
+#abt_title{
+text-align:center;
+font-family:century-gothic;
+font-size:30px;
+}
+
+#abt_text{
+text-align:justify;
+font-family:sans-serif;
+line-height:28px;
+}
+
+#m_sweets{
+float:left;
+width:100%;
+box-sizing:border-box;
+}
+
+#more_sweets{
+text-align:center;
+font-family:sans-serif;
+font-size:30px;
+}
+
+#Sweets{
+width:200px;
+height:230px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+float:left;
+margin-right:32px;
+}
+
+#Sweets_and{
+width:200px;
+height:230px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+float:left;
+}
+
+#sweets_pic{
+width:160px;
+height:160px;
+margin:15px;
+}
+
+#buy_btn{
+padding:5px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+width:100px;
+background-color:white;
+}
+
+footer{
+width:100%;
+height:250px;
+box-sizing:border-box;
+float:left;
+background-color:black;
+}
+
+#contact_us{
+width:400px;
+height:250px;
+box-sizing:border-box;
+float:left;
+padding:10px;
+padding-left:30px;
+}
+
+#social_link{
+width:400px;
+height:250px;
+box-sizing:border-box;
+float:right;
+padding:15px;
+}
+
+#Contact_title{
+color:white;
+font-family:sans-serif;
+}
+
+#content_details{
+color:white;
+font-size:20px;
+font-family:sans-serif;
+font-style:normal;
+margin-bottom:10px;
+}
+
+#social_logo{
+width:50px;
+padding:10px;
+}
+
+#developer{
+float:left;
+color:white;
+font-family:century-gothic;
+margin-top:200px;
+margin-left:110px;
+}
+
+</style>
+</head>
+<body>
+<header>
+<h1 id="brand">Sweetshop.com</h1>
+<p id="tag_line">The world's largest Sweets & bakeries shop</p>
+</header>
+
+<nav>
+<form>
+<input type="search" name="search" placeholder="search your Sweets here" id="search">
+<input type="Submet" value="Search" id="search-btn">
+</form>
+
+<table id ="menu_table">
+<tr>
+<td id ="menu_itme"><a href="sweetshop.html">Home</a></td>
+<td id ="menu_itme"><a href="Sweets.html">Sweets</a></td>
+<td id ="menu_itme"><a href="#">Bakeries</a></td>
+<td id ="menu_itme"><a href="#abt_us">About us</a></td>
+<td id ="menu_itme"><a href="#contact_us">Contact us</a></td>
+</tr>
+</table>
+
+<section>
+<address id="Venue">
+Venue : Bahoranpur kalan ( Moradabd - 244001 )
+</address>
+<address id="Phone">
+Order Online : +916395016788,+918126198032
+</address>
+
+<div id="populer-Sweets-box">
+<h1 id="populer-Sweets-title">Our populer Sweets</h1>
+<img src="aa.jpg" alt="aa" id="populer-Sweets-img"/>
+<img src="bb.jpg" alt="bb" id="populer-Sweets-img"/>
+<img src="cc.jpg" alt="cc" id="populer-Sweets-img"/>
+<img src="dd.jpg" alt="dd" id="populer-Sweets-img"/>
+</div>
+
+<table id="rate_list_box">
+<tr>
+<td id="rate_header">Sweets Name</td>
+<td id="rate_header">Price</td>
+</tr>
+<tr>
+<td id="rate_content">
+<ol>
+<li id="s_name">Rasgulla</li>
+<li id="s_name">Ras mali</li>
+<li id="s_name">Peda</li>
+<li id="s_name">Pantua</li>
+<li id="s_name">Jalebi</li>
+<li id="s_name">Balushahi</li>
+<li id="s_name">Rabri</li>
+<li id="s_name">Laddu</li>
+<li id="s_name">Soan papdi</li>
+<li id="s_name">Gajar ki barfi</li>
+</ol>
+</td>
+<td id="rate_content">
+<ol id="rate">
+<li id="s_name">200/kg</li>
+<li id="s_name">180/kg</li>
+<li id="s_name">250/kg</li>
+<li id="s_name">350/kg</li>
+<li id="s_name">160/kg</li>
+<li id="s_name">199/kg</li>
+<li id="s_name">100/kg</li>
+<li id="s_name">150/kg</li>
+<li id="s_name">250/kg</li>
+<li id="s_name">300/kg</li>
+</ol>
+</td>
+</tr>
+
+</table>
+
+<fieldset id="frm_box">
+<legend>Order Online</legend>
+
+<form id="Order_Online">
+Costumer Name<br>
+<input type="text" name="name" id="Order_input"><br><br>
+Mobile No.<br>
+<input type="number" name="moblie" id="Order_input"><br><br>
+Choose Sweets<br>
+<select name="choose_sweets" id="Order_input">
+<option value="Select">Select</option>
+<option value="Rasgulla">Rasgulla</option>
+<option value="Ras mali">Ras mali</option>
+<option value="Peda">Peda</option>
+<option value="Pantua">Pantua</option>
+<option value="Jalebi">Jalebi</option>
+<option value="Balushahi">Balushahi</option>
+<option value="Rabri">Rabri</option>
+<option value="Laddu">Laddu</option>
+<option value="Soan papdi">Soan papdi</option>
+<option value="Gajar ki barfi">Gajar ki barfi</option>
+</select>
+
+<br><br>
+Quantity<br>
+<input type="text" name="quantity" id="Order_input">
+<br><br>
+Address<br>
+<textarea name="address"></textarea>
+<br><br>
+<input type="Submet" value="Order Now!" id="Submet_btn">
+</form>
+</fieldset>
+
+<div id="abt_us">
+<h1 align="center" id="abt_title">About Us</h1>
+<hr>
+<p id="abt_text"> 
+On the Insert tab, the galleries include items that are designed to coordinate with the 
+overall look of your document. You can use these galleries to insert tables, headers,
+footers, lists, cover pages, and other document building blocks. When you create pictures, 
+charts, or diagrams, they also coordinate with your current document look.
+You can easily change the formatting of selected text in the document text by choosing a look
+for the selected text from the Quick Styles gallery on the Home tab. You can also format text 
+directly by using the other controls on the Home tab. Most controls offer a choice of using the
+look from the current theme or using a format that you specify directly.
+
+</p>
+</div>
+
+<div id="m_sweets">
+<h1 id="more_sweets">More Sweets</h1>
+</div>
+
+<div id="Sweets">
+<img src="ee.jpg" id="sweets_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="Sweets">
+<img src="gg.jpg" id="sweets_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="Sweets">
+<img src="kk.jpg" id="sweets_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="Sweets">
+<img src="jj.jpg" id="sweets_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="Sweets_and">
+<img src="kk.jpg" id="sweets_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+
+</section>
+
+<footer>
+<div id="contact_us">
+<h1 id="Contact_title">Contact_us</h1>
+<address id="content_details">Website : sweetshop.com</address>
+<address id="content_details">Phone No. : +91 6395016788</address>
+<address id="content_details">Email id : rahulsaini6395@gmail.com</address>
+<address id="content_details">Address : Bahoranpur kalan Moradabd</address>
+</div>
+<div id="developer">Developer By : Rahul Kumar Saini</div>
+<div id="social_link">
+<h1 id="Contact_title">Follow_us</h1>
+<a href="https://www.facebook.com/itzrahulsainilove/"><img src="Face.jpg" id="social_logo"></a>
+<a href="https://www.instagram.com/itz_saini_love_rahulsaini/#"><img src="Insta.jpeg" id="social_logo"></a>
+<a href="https://www.facebook.com/itzrahulsainilove/"><img src="Twitter.jpeg" id="social_logo"></a>
+</div>
+</footer>
+</body>
+</html>
